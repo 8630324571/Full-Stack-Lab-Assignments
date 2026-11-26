@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.circle {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-30 {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+}
+
+.circle-20 {
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+}
+
+.circle-10 {
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+}
