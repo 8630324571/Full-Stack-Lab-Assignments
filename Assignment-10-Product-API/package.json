@@ -1,0 +1,12 @@
+{
+  "name": "assignment-10-product-api",
+  "version": "1.0.0",
+  "description": "Product API with client-side rendering",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
